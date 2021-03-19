@@ -1,3 +1,11 @@
 {
-    "name": "easybi/oro-cms-bundle"
+    "name": "easybi/oro-cms-bundle",
+    "description": "Oro CMSBundle",
+    "authors": [
+        {
+            "name": "Georgi Kolev",
+            "email": "georgi.kolev@easy.bi"
+        }
+    ],
+    "require": {}
 }
