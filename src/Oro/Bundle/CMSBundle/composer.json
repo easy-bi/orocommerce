@@ -1,0 +1,7 @@
+{
+    "name": "easybi/oro-cms-bundle",
+    "description": "Oro CMSBundle",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "type": "symfony-bundle"
+}
