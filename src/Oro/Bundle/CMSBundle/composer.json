@@ -3,5 +3,9 @@
     "description": "Oro CMSBundle",
     "version": "1.0.0",
     "minimum-stability": "dev",
-    "type": "symfony-bundle"
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-0": { "Oro\\CMSBundle": "" }
+    },
+    "target-dir": "Oro/CMSBundle"
 }

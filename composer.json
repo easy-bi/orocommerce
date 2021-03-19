@@ -68,6 +68,11 @@
         },
         "branch-alias": {
             "dev-master": "5.0-dev"
+        },
+        "easybi-oro-monorepo": {
+            "include": [
+                "src/Oro/*/composer.json"
+            ]
         }
     },
     "autoload": {
@@ -119,5 +124,8 @@
             "Oro\\Component\\Website\\": "src/Oro/Component/Website"
         },
         "exclude-from-classmap": ["/Tests/"]
+    },
+    "replace": {
+        "easybi/oro-cms-bundle": "self.version"
     }
 }
