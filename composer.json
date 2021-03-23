@@ -18,7 +18,8 @@
         "oro/marketing": "5.0.*",
         "oro/customer-portal": "5.0.*",
         "box/spout": "~3.1.0",
-        "besimple/soap-client": "^0.2.6"
+        "besimple/soap-client": "^0.2.6",
+        "beberlei/composer-monorepo-plugin": "^0.16.5"
     },
     "require-dev": {
         "behat/behat": "~3.8.1",
@@ -68,11 +69,6 @@
         },
         "branch-alias": {
             "dev-master": "5.0-dev"
-        },
-        "easybi-oro-monorepo": {
-            "include": [
-                "src/Oro/*/composer.json"
-            ]
         }
     },
     "autoload": {
@@ -124,8 +120,5 @@
             "Oro\\Component\\Website\\": "src/Oro/Component/Website"
         },
         "exclude-from-classmap": ["/Tests/"]
-    },
-    "replace": {
-        "easybi/oro-cms-bundle": "self.version"
     }
 }
