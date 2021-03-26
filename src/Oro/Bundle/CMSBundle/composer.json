@@ -1,7 +1,7 @@
 {
     "name": "easybi/oro-cms-bundle",
     "description": "Oro CMSBundle",
-    "version": "1.0.0",
+    "version": "4.2.1",
     "minimum-stability": "dev",
     "type": "symfony-bundle",
     "autoload": {
