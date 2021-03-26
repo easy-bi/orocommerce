@@ -1,5 +1,10 @@
 {
+    "name": "easybi/oro-cms-bundle",
+    "version": "4.2.1",
+    "deps": [
+        "oro/platform"
+    ],
     "autoload": {
-        "psr-0": { "Oro\\Bundle\\CMSBundle": "" }
+        "psr-4": {"Oro\\Bundle\\CMSBundle\\": "/"}
     }
 }
